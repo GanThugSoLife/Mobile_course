@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
+=======
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/src/foundation/key.dart';
+import 'package:flutter/src/widgets/framework.dart';
+>>>>>>> 662b9954192a21dd754c1094676d7925ad527b47
 
 class Star extends StatelessWidget {
   final Color color;
@@ -37,7 +43,11 @@ class _StarPainter extends CustomPainter {
     path.lineTo(size.width, size.height * 0.382);
     path.lineTo(size.width * 0.691, size.height * 0.618);
     path.lineTo(size.width * 0.809, size.height);
+<<<<<<< HEAD
     path.lineTo(size.width * 0.5, size.height * 0.7639);
+=======
+    path.lineTo(size.width * 0.5, size.height * 0.7636);
+>>>>>>> 662b9954192a21dd754c1094676d7925ad527b47
     path.lineTo(size.width * 0.191, size.height);
     path.lineTo(size.width * 0.309, size.height * 0.618);
     path.lineTo(0, size.height * 0.382);
@@ -48,7 +58,11 @@ class _StarPainter extends CustomPainter {
   }
 
   @override
+<<<<<<< HEAD
   bool shouldRepaint(CustomPainter oldDelegate) {
+=======
+  bool shouldRepaint(CustomPainter oldDelegete) {
+>>>>>>> 662b9954192a21dd754c1094676d7925ad527b47
     return false;
   }
 }
